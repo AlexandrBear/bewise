@@ -10,7 +10,7 @@ services:
     ports:
       - "3307:3306"
     volumes:
-      - /home/alexandr/Desktop/testovoe_bewise/mydb:/var/lib/mysql
+      - ./bewise/mydb:/var/lib/mysql
 
   flask:
     build:

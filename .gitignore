@@ -1,2 +1,4 @@
 /env/
 .idea
+mydb
+__pycache__
