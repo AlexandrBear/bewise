@@ -10,7 +10,7 @@ hello app
     <h2 style="text-align: center">
         <div class="input-group mb-3">
             <button class="btn btn-primary" type="submit" id="button-addon1">Получить</button>
-            <input name="num" type="text" class="form-control" placeholder="Введите количество вопросов."
+            <input name="num" type="text" class="form-control" placeholder="Введите количество вопросов, которые необходимо скачать."
                 aria-label="Example text with button addon" aria-describedby="button-addon1">
         </div>
     </h2>
@@ -21,5 +21,6 @@ hello app
 
 
 {% block content %}
+    <h4 >Последний скачанный вопрос:</h4>
     <p>{{ message }}</p>
 {% endblock %}
