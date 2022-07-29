@@ -12,7 +12,7 @@
 #### 5) В файле config.py зменить параметр:
 ####    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:example@mysql/docker_mysql'
 ####    а) где mysql+mysqlconnector:// остается без изменений если используете MySql,
-####       если нет то указать базу + коннектор(установить при помощи pip отдельно),
+####       если не MySql то указать базу + коннектор(установить при помощи pip отдельно),
 ####    б) root имя пользователя в базе данных,
 ####    в) example пароль
 ####    г) mysql путь к базе (localhost)
